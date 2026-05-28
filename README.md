@@ -1,6 +1,6 @@
 # Jawahar Prasad
 
-Building AI dev productivity at scale — and the measurement framework that doesn't depend on AI lineage or surveys.
+Building AI dev productivity at scale, and the measurement framework that doesn't depend on AI lineage or surveys.
 
 Bay Area · [jawaharprasad.com](https://jawaharprasad.com) · [LinkedIn](https://www.linkedin.com/in/jawaharprasad)
 
@@ -8,14 +8,14 @@ Bay Area · [jawaharprasad.com](https://jawaharprasad.com) · [LinkedIn](https:/
 
 ## What I build
 
-**ORBIT** — an AI dev-productivity platform running across 3,500+ repos and 1,400+ engineers, QA, and PMs. Sub-systems:
+**ORBIT**: an agentic AI dev-productivity platform running across 3,500+ repos and 1,400+ engineers, QA, and PMs. Sub-systems:
 
-- **DeepContext** — graph-augmented RAG over Jira, Confluence, code, and PRs
-- **Central** — agentic orchestration with sandboxed execution
-- **CPI** — Composite Productivity Index, a measurement framework that doesn't depend on AI lineage or surveys
-- **AIR** — incident-response research direction, currently in early preview
+- **DeepContext**: graph-augmented RAG over Jira, Confluence, code, and PRs
+- **Central**: agentic orchestration with sandboxed execution
+- **CPI**: Composite Productivity Index, a measurement framework that doesn't depend on AI lineage or surveys
+- **AIR**: incident-response research direction, currently in early preview
 
-Augment Code's December 2025 customer feature independently documented the rollout: **60% reduction in merge time** (3 days → 1 day), **+21% MR volume** at same headcount.
+ORBIT replaced **PDAF** (Persona-Driven AI Framework), the prompt-driven AI agent framework I shipped in 2025. PDAF produced the results Augment Code documented in their December 2025 customer feature: **60% reduction in merge time** (3 days to 1 day), **+21% MR volume** at same headcount.
 
 ## Public work
 
@@ -27,3 +27,5 @@ Augment Code's December 2025 customer feature independently documented the rollo
 ## Background
 
 ~20 years engineering, ~15 of them in ML / search / AI. Yahoo!, Jabong, Flipkart (doubled ads revenue, Best People Manager 2018), Amazon (Recommendations and Personalization). Founding team of what became [Whatfix](https://whatfix.com) (2010, left after 13 months before product-market fit).
+
+Currently at Tekion since 2020.
