@@ -12,8 +12,8 @@ Bay Area · [jawaharprasad.com](https://jawaharprasad.com) · [LinkedIn](https:/
 
 - **DeepContext** — graph-augmented RAG over Jira, Confluence, code, and PRs
 - **Central** — agentic orchestration with sandboxed execution
-- **AIR** — anomaly detection + RCA + auto-fix (~70% incident-triage reduction)
 - **CPI** — Composite Productivity Index, a measurement framework that doesn't depend on AI lineage or surveys
+- **AIR** — incident-response research direction, currently in early preview
 
 Augment Code's December 2025 customer feature independently documented the rollout: **60% reduction in merge time** (3 days → 1 day), **+21% MR volume** at same headcount.
 
