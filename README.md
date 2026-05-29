@@ -8,9 +8,9 @@ Bay Area · [jawaharprasad.com](https://jawaharprasad.com) · [LinkedIn](https:/
 
 ## What I build
 
-**ORBIT**: an agentic AI dev-productivity platform running across 3,500+ repos and 1,400+ engineers, QA, and PMs. Sub-systems:
+**ORBIT**: an agentic AI dev-productivity platform running across thousands of repositories (700+ microservices) and ~1,500 engineers, QA, and product staff. Sub-systems:
 
-- **DeepContext**: graph-augmented RAG over Jira, Confluence, code, and PRs
+- **DeepContext**: hybrid retrieval over Jira, Confluence, code, and PRs
 - **Central**: agentic orchestration with sandboxed execution
 - **CPI**: Composite Productivity Index, a measurement framework that doesn't depend on AI lineage or surveys
 - **AIR**: incident-response research direction, currently in early preview
