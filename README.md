@@ -26,6 +26,6 @@ ORBIT replaced **PDAF** (Persona-Driven AI Framework), the prompt-driven AI agen
 
 ## Background
 
-~20 years engineering, ~15 of them in ML / search / AI. Yahoo!, Jabong, Flipkart (doubled ads revenue, Best People Manager 2018), Amazon (Recommendations and Personalization). Founding team of what became [Whatfix](https://whatfix.com) (2010, left after 13 months before product-market fit).
+~21 years engineering, ~16 of them in ML / search / shopping / AI. Yahoo!, Jabong, Flipkart (doubled ads revenue, Best People Manager 2018), Amazon (Recommendations and Personalization). Founding team of what became [Whatfix](https://whatfix.com) (2010, left after 13 months before product-market fit).
 
 Currently at Tekion since 2020.
