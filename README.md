@@ -8,7 +8,7 @@ Bay Area · [jawaharprasad.com](https://jawaharprasad.com) · [LinkedIn](https:/
 
 ## What I build
 
-**ORBIT**: an agentic AI dev-productivity platform running across thousands of repositories (700+ microservices) and ~1,500 engineers, QA, and product staff. Sub-systems:
+**ORBIT**: an agentic AI dev-productivity platform running across thousands of repositories (700+ microservices), used across engineering, QA, and product. Sub-systems:
 
 - **DeepContext**: hybrid retrieval over Jira, Confluence, code, and PRs
 - **Central**: agentic orchestration with sandboxed execution
