@@ -6,6 +6,14 @@ Bay Area · [jawaharprasad.com](https://jawaharprasad.com) · [LinkedIn](https:/
 
 ---
 
+## Open source
+
+**[tokendog](https://github.com/jawahar4k/tokendog)**: watchdog for Claude Code token spend. Prices every turn from authoritative usage, attributes cost by project / tool / model / context band, and tells you which sessions to close. Local-only, nothing leaves your machine.
+
+Built it after measuring one developer's 255 transcripts (6.3B tokens): 62% of cost was cache reads, 29% cache writes, 9% output. Nine-tenths of the bill is context economics, not generation. Most token advice is about the last ninth.
+
+Also: [argoproj-labs/mcp-for-argocd#116](https://github.com/argoproj-labs/mcp-for-argocd/pull/116), preserve subpath in `ARGOCD_BASE_URL` for ArgoCD behind an ingress.
+
 ## What I build
 
 **ORBIT**: an agentic AI dev-productivity platform running across thousands of repositories (700+ microservices), used across engineering, QA, and product. Sub-systems:
