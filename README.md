@@ -16,12 +16,14 @@ Also: [argoproj-labs/mcp-for-argocd#116](https://github.com/argoproj-labs/mcp-fo
 
 ## What I build
 
-**ORBIT**: an agentic AI dev-productivity platform running across thousands of repositories (700+ microservices), used across engineering, QA, and product. Sub-systems:
+**ORBIT** is Tekion's internal AI engineering platform: the infrastructure that lets AI agents do real work across thousands of repositories (700+ microservices) for engineering, QA, and product. I architected it and run the team that builds it. The name means nothing outside Tekion, so here are the parts by the problem each one solves.
 
-- **DeepContext**: hybrid retrieval over Jira, Confluence, code, and PRs
-- **Central**: agentic orchestration with sandboxed execution
-- **CPI**: Composite Productivity Index, a measurement framework that doesn't depend on AI lineage or surveys
-- **AIR**: incident-response research direction, currently in early preview
+| Sub-system | The problem | What it is |
+|---|---|---|
+| **DeepContext** | An agent can't fix a bug if it can't find the ticket, the design doc, the PR that introduced it, and the three services it touches. Plain search finds documents; it doesn't find relationships. | Hybrid retrieval over Jira, Confluence, code, PRs, and commit history, exposed through one interface. The context layer every other sub-system reads from. |
+| **Central** | Running an agent against one repo is easy. Running a code-review pass or a batch refactor across hundreds of repos needs isolation that no agent framework ships. | Agentic orchestration runtime. Headless agent workflows in sandboxed, ephemeral, network-policy-enforced environments. |
+| **CPI** | "Is AI actually making us faster?" Most answers rely on surveys, tool-usage counts, or guessing which lines an AI wrote. All three are gameable. | Composite Productivity Index. Four outcome pillars (speed, effective throughput, rework, stability), each a z-score against a pre-AI baseline, with anti-gaming guardrails. Paper in development. |
+| **AIR** | On-call gets paged before anyone has looked at the root cause. | Adaptive Incident Intelligence and Remediation: detect, run RCA, and where confidence is sufficient, propose the fix as a PR. Early research preview. Auto-remediation is the part of AI engineering with the highest cost of being wrong, so this one moves slowly. |
 
 ORBIT replaced **PDAF** (Persona-Driven AI Framework), the prompt-driven AI agent framework I shipped in 2025. PDAF produced the results Augment Code documented in their December 2025 customer feature: **60% reduction in merge time** (3 days to 1 day), **+21% MR volume** at same headcount.
 
