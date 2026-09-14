@@ -1,6 +1,6 @@
 # Jawahar Prasad
 
-Building AI dev productivity at scale, and the measurement framework that doesn't depend on AI lineage or surveys.
+Coding agents for 1,300+ engineers at Tekion. I build the platform they run on (ORBIT) and the measurement that says whether it actually changed anything (CPI).
 
 Bay Area · [jawaharprasad.com](https://jawaharprasad.com) · [LinkedIn](https://www.linkedin.com/in/jawaharprasad)
 
